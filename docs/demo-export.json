@@ -1,0 +1,163 @@
+{
+  "archives": [],
+  "exported_at": "2026-10-08T12:00:00+00:00",
+  "format": "kitmode-export",
+  "habits": [
+    {
+      "archived": false,
+      "created_at": "2026-10-05T12:00:00+00:00",
+      "id": "389a9b3e5e6c",
+      "sensitive": false,
+      "title": "Demo · Read",
+      "user_id": 101
+    },
+    {
+      "archived": false,
+      "created_at": "2026-10-05T12:00:00+00:00",
+      "id": "6f077a8ebab1",
+      "sensitive": false,
+      "title": "Demo · Walk",
+      "user_id": 101
+    }
+  ],
+  "pauses": [],
+  "records": [
+    {
+      "day": "2026-10-05",
+      "evidence": "{}",
+      "habit_id": "389a9b3e5e6c",
+      "note": "",
+      "snapshot": "{\"category\":\"\",\"description\":\"\",\"end\":null,\"icon\":\"🐾\",\"independent\":false,\"kind\":\"quantity\",\"minimum\":2.0,\"minimum_description\":\"\",\"private_title\":\"Private habit\",\"reminders\":[\"19:00\"],\"repeat\":0,\"routine\":\"Evening\",\"schedule\":{\"type\":\"daily\"},\"sensitive\":false,\"start\":\"2026-10-05\",\"target\":10.0,\"title\":\"Demo · Read\",\"unit\":\"pages\",\"verify\":\"none\"}",
+      "status": "full",
+      "updated_at": "2026-10-05T12:00:00+00:00",
+      "value": 10.0,
+      "verification": "none"
+    },
+    {
+      "day": "2026-10-06",
+      "evidence": "{}",
+      "habit_id": "389a9b3e5e6c",
+      "note": "",
+      "snapshot": "{\"category\":\"\",\"description\":\"\",\"end\":null,\"icon\":\"🐾\",\"independent\":false,\"kind\":\"quantity\",\"minimum\":2.0,\"minimum_description\":\"\",\"private_title\":\"Private habit\",\"reminders\":[\"19:00\"],\"repeat\":0,\"routine\":\"Evening\",\"schedule\":{\"type\":\"daily\"},\"sensitive\":false,\"start\":\"2026-10-05\",\"target\":10.0,\"title\":\"Demo · Read\",\"unit\":\"pages\",\"verify\":\"none\"}",
+      "status": "minimum",
+      "updated_at": "2026-10-06T12:00:00+00:00",
+      "value": 2.0,
+      "verification": "none"
+    },
+    {
+      "day": "2026-10-07",
+      "evidence": "{}",
+      "habit_id": "389a9b3e5e6c",
+      "note": "",
+      "snapshot": "{\"category\":\"\",\"description\":\"\",\"end\":null,\"icon\":\"🐾\",\"independent\":false,\"kind\":\"quantity\",\"minimum\":2.0,\"minimum_description\":\"\",\"private_title\":\"Private habit\",\"reminders\":[\"19:00\"],\"repeat\":0,\"routine\":\"Evening\",\"schedule\":{\"type\":\"daily\"},\"sensitive\":false,\"start\":\"2026-10-05\",\"target\":10.0,\"title\":\"Demo · Read\",\"unit\":\"pages\",\"verify\":\"none\"}",
+      "status": "full",
+      "updated_at": "2026-10-07T12:00:00+00:00",
+      "value": 10.0,
+      "verification": "none"
+    },
+    {
+      "day": "2026-10-05",
+      "evidence": "{}",
+      "habit_id": "6f077a8ebab1",
+      "note": "",
+      "snapshot": "{\"category\":\"\",\"description\":\"\",\"end\":null,\"icon\":\"🐾\",\"independent\":false,\"kind\":\"binary\",\"minimum\":null,\"minimum_description\":\"\",\"private_title\":\"Private habit\",\"reminders\":[],\"repeat\":0,\"routine\":\"\",\"schedule\":{\"days\":[0,2,4],\"type\":\"weekdays\"},\"sensitive\":false,\"start\":\"2026-10-05\",\"target\":1.0,\"title\":\"Demo · Walk\",\"unit\":\"\",\"verify\":\"none\"}",
+      "status": "full",
+      "updated_at": "2026-10-05T12:00:00+00:00",
+      "value": 1.0,
+      "verification": "none"
+    },
+    {
+      "day": "2026-10-07",
+      "evidence": "{}",
+      "habit_id": "6f077a8ebab1",
+      "note": "",
+      "snapshot": "{\"category\":\"\",\"description\":\"\",\"end\":null,\"icon\":\"🐾\",\"independent\":false,\"kind\":\"binary\",\"minimum\":null,\"minimum_description\":\"\",\"private_title\":\"Private habit\",\"reminders\":[],\"repeat\":0,\"routine\":\"\",\"schedule\":{\"days\":[0,2,4],\"type\":\"weekdays\"},\"sensitive\":false,\"start\":\"2026-10-05\",\"target\":1.0,\"title\":\"Demo · Walk\",\"unit\":\"\",\"verify\":\"none\"}",
+      "status": "full",
+      "updated_at": "2026-10-07T12:00:00+00:00",
+      "value": 1.0,
+      "verification": "none"
+    }
+  ],
+  "urges": [],
+  "user": {
+    "ai_consent": false,
+    "ai_sensitive": false,
+    "blocked": false,
+    "boundary": "04:00",
+    "gamification": true,
+    "inactivity_sent": false,
+    "lang": "en",
+    "last_seen": "2026-10-05T12:00:00+00:00",
+    "name": "Demo",
+    "quiet_end": "08:00",
+    "quiet_start": "23:00",
+    "reminders": true,
+    "sleep": "23:00",
+    "tone": "friendly",
+    "tz": "UTC"
+  },
+  "version": 1,
+  "versions": [
+    {
+      "effective": "2026-10-05",
+      "habit_id": "389a9b3e5e6c",
+      "spec": {
+        "category": "",
+        "description": "",
+        "end": null,
+        "icon": "🐾",
+        "independent": false,
+        "kind": "quantity",
+        "minimum": 2.0,
+        "minimum_description": "",
+        "private_title": "Private habit",
+        "reminders": [
+          "19:00"
+        ],
+        "repeat": 0,
+        "routine": "Evening",
+        "schedule": {
+          "type": "daily"
+        },
+        "sensitive": false,
+        "start": "2026-10-05",
+        "target": 10.0,
+        "title": "Demo · Read",
+        "unit": "pages",
+        "verify": "none"
+      }
+    },
+    {
+      "effective": "2026-10-05",
+      "habit_id": "6f077a8ebab1",
+      "spec": {
+        "category": "",
+        "description": "",
+        "end": null,
+        "icon": "🐾",
+        "independent": false,
+        "kind": "binary",
+        "minimum": null,
+        "minimum_description": "",
+        "private_title": "Private habit",
+        "reminders": [],
+        "repeat": 0,
+        "routine": "",
+        "schedule": {
+          "days": [
+            0,
+            2,
+            4
+          ],
+          "type": "weekdays"
+        },
+        "sensitive": false,
+        "start": "2026-10-05",
+        "target": 1.0,
+        "title": "Demo · Walk",
+        "unit": "",
+        "verify": "none"
+      }
+    }
+  ]
+}

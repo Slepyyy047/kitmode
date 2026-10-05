@@ -1,0 +1,8 @@
+# Optional reproducible development tools. Runtime is installed from pyproject.toml.
+# Versions were installed and verified on Python 3.12 Windows in this delivery.
+ruff==0.15.0
+mypy==1.19.1
+typing_extensions==4.16.0
+mypy_extensions==1.1.0
+pathspec==1.1.1
+librt==0.16.0
