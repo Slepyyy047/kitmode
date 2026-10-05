@@ -77,7 +77,7 @@ def single_process(db_path: str) -> Iterator[None]:
         lock.flush()
         lock.seek(0)
         try:
-            if os.name == "nt":
+            if sys.platform == "win32":
                 import msvcrt
 
                 msvcrt.locking(lock.fileno(), msvcrt.LK_NBLCK, 1)
@@ -89,7 +89,7 @@ def single_process(db_path: str) -> Iterator[None]:
         try:
             yield
         finally:
-            if os.name == "nt":
+            if sys.platform == "win32":
                 import msvcrt
 
                 lock.seek(0)
